@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B747E4BD29CB1D150058C24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B747E4BC29CB1D150058C24F /* main.m */; };
+		B747E4C529CB1DF70058C24F /* 笔记.c in Sources */ = {isa = PBXBuildFile; fileRef = B747E4C429CB1DF70058C24F /* 笔记.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B747E4B929CB1D150058C24F /* Day01-OC基础语法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day01-OC基础语法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B747E4BC29CB1D150058C24F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B747E4C329CB1DF70058C24F /* 笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "笔记.h"; sourceTree = "<group>"; };
+		B747E4C429CB1DF70058C24F /* 笔记.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "笔记.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		B747E4B029CB1D150058C24F = {
 			isa = PBXGroup;
 			children = (
+				B747E4C329CB1DF70058C24F /* 笔记.h */,
+				B747E4C429CB1DF70058C24F /* 笔记.c */,
 				B747E4BB29CB1D150058C24F /* Day01-OC基础语法 */,
 				B747E4BA29CB1D150058C24F /* Products */,
 			);
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B747E4BD29CB1D150058C24F /* main.m in Sources */,
+				B747E4C529CB1DF70058C24F /* 笔记.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
